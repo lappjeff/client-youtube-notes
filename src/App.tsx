@@ -1,9 +1,7 @@
-import './App.scss';
-import Notes from './notes/Notes';
+import "./App.scss";
+import Notes from "./notes/Notes";
 
 function App() {
-
-
   return (
     <div className="App">
       <Notes />
@@ -11,7 +9,4 @@ function App() {
   );
 }
 
-
 export default App;
-
-
