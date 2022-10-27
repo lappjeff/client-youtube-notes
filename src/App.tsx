@@ -18,8 +18,8 @@ function App() {
     window.addEventListener('storage', handleNotes)
 
     // handles cleanup
-    return () => {window.removeEventListener('storage', handleNotes)}
-  })
+    return window.removeEventListener('storage', handleNotes)
+  }, [])
 
   return (
     <div className="App">
